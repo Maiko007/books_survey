@@ -53,6 +53,7 @@ with open("out.csv","r") as f:
             tmp2 = data[i]
             former_lines.append(tmp2)
 former_lines2 = [i.rstrip('\n') for i in former_lines]
+
 #csvファイルへの書き込み
 result_lines = []
 with open("out.csv", "a") as f:
